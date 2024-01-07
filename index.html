@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/assets/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+ 
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.svg" alt="Logo">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" tabindex="-1" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About me</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <div class="social-icon">
+                            <a href="https://www.behance.net/179e2bdc"><img src="nav-icon1.svg" alt="Icon"></a>
+                            <a href="https://www.linkedin.com/feed/"><img src="nav-icon2.svg" alt="Icon"></a>
+                            
+                        </div>
+                        <button onclick="goBackToPreviousPage5()" href="resume.html" class="vvd" onclick="location.href='#connect';"><span>Resume</span></button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Banner -->
+          <section class="banner" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-xl-7 wow fadeIn" data-wow-duration="1.5s">
+                        <span class="taglin">Welcome to my Portfolio</span>
+                        <h1>Nataliia Blashchuk, <span class="txt-rotate" data-period="1000" data-rotate='[ "UI/UX Designer" ]'></span> based in Poland.</h1>
+                        <p>Navigating from the precision of medical statistics to the dynamic world of design, I am a budding UX/UI designer with a foundation built on analytical depth and a fresh creative lens. Embracing challenges from Poland’s warehouses to online learning platforms, my path reflects adaptability and dedication. Join me as I craft intuitive and compelling digital experiences.</p>
+                     <button onclick ="location.href='mailto:natalienevergiveup@mail.com';">Let's connect <i class="bi bi-arrow-right-circle"></i></button>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 wow zoomIn" data-wow-duration="1.5s">
+                        <img src="header-img.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
+
+       
+
+        <!-- Projects -->
+        <section class="project" id ="project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 wow fadeIn" data-wow-duration="1.5s">
+                        <h2>Projects</h2>
+                        <p>Explore my diverse UX/UI projects, where design meets functionality to create seamless user experiences</p>
+
+                       
+                        <div class="tab-content" id ="pills-tabContent wow slide InUp" data-wow-duration="1.5s" href="project1.html">
+                            <div class="tab-pane fade show active" id ="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="row">
+                                    <div class="col-12 col-sm-8 col-md-6">
+                                        <div class="proj-imgbx">
+                                            <img src="project-img1.png" alt="Image">
+                                            <div class="proj-txtx">
+                                              
+                                                <button onclick="goBackToPreviousPage1()"><a href="https://www.behance.net/gallery/180768759/MVP-service-for-bank-employees-to-execute-mandates" target="_blank"> Design & Development</a></button onclick="goBackToPreviousPage()">
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-12 col-sm-8 col-md-6">
+                                        <div class="proj-imgbx">
+                                            <img src="project-img2.png" alt="Image">
+                                            <div class="proj-txtx">
+                                              
+                                                <button onclick="goBackToPreviousPage2()"><a href="https://www.behance.net/gallery/180747615/Pet-project-Concept-of-the-app-Reservato" target="_blank"> Design & Development</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-6">
+                                        <div class="proj-imgbx">
+                                            <img src="project-img3.png" alt="Image">
+                                            <div class="proj-txtx">
+                                               
+                                                <button onclick="goBackToPreviousPage3()"><a href="https://www.behance.net/gallery/180748959/Landing-page-for-Kotyan-Basyan" target="_blank"> Design & Development</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-12 col-sm-8 col-md-6">
+                                        <div class="proj-imgbx">
+                                            <img src="project-img4.png" alt="Image">
+                                            <div class="proj-txtx">
+                                               
+                                               <button onclick="goBackToPreviousPage4()"><a href="https://www.behance.net/gallery/180750085/UI-shotsLanding-concept" target="_blank"> Design & Development</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+       
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="sdf2" src="color-sharp2.png" alt="Image">
+        </section>
+        <!-- Projects End -->
+ <!-- Skills -->
+        <section class="skill" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="skill-bx wow zoomIn" data-wow-duration="1.5s">
+                            <h2>Skills</h2>
+                            <p> Design tools i am working with</p>
+                            <div class="owl-carousel owl-theme skill-slider">
+                                <div class="item">
+                                    <img src="meter1.svg" alt="Image">
+                                    <h5>Figma</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter2.svg" alt="Image">
+                                    <h5>Adobe Illustrator</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter3.svg" alt="Image">
+                                    <h5>Photoshop</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter4.svg" alt="Image">
+                                    <h5>Tilda</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter5.svg" alt="Image">
+                                    <h5>InVision Studio</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter6.svg" alt="Image">
+                                    <h5>Jira</h5>
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="meter8.svg" alt="Image">
+                                    <h5>Miro</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter9.svg" alt="Image">
+                                    <h5>VS Code</h5>
+                                </div>
+                                <div class="item">
+                                    <img src="meter10.svg" alt="Image">
+                                    <h5>GitHub</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="sdf" src="color-sharp.png" alt="Image">
+        </section>
+        <!-- Skills End -->
+        <!-- About me -->
+        <section class="aboutme" id ="aboutme">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 wow zoomIn" data-wow-duration="1.5s">
+                        <img src="contact-img.svg" alt="Image">
+                    </div>
+                    <div class="col-12 col-md-6 wow fadeIn" data-wow-duration="1.5s">
+                        <h2>About me</h2>                                                                      
+                                 <h3>From Medical Statistics to UX/UI Aesthetics</h3>                     
+
+ <p>My journey into the professional world began in the intricate maze of medicine, where for three transformative years, I wielded the power of numbers as a medical statistician. This role required precision and analytical prowess, skills I further honed during a brief stint as a consultant.
+
+<br><br> When I was 23, an adventurous spirit and the quest for educational resources propelled me to the beautiful landscapes of Poland. I first ventured into the realm of warehousing, a detour that lasted longer than anticipated, yet it became a backdrop for introspection and reinvention.
+
+The allure of capturing moments through a camera lens briefly swayed me, and I eagerly took to photography. However, fate had other plans when the global pandemic and geopolitical tensions shifted my trajectory once again.<br><br>
+
+I pivoted to UX/UI design, a discipline that combined my analytical skills with my burgeoning artistic sensibilities. The road wasn’t always smooth—my commitment to my dream led me back to Poland, where I showcased leadership in warehousing and resisted lucrative job offers, all in my unwavering pursuit to become a proficient UX/UI designer.
+
+<br><br>Today, after four years navigating warehouses, three years immersed in medical statistics, and several months consulting, I stand at the crossroads of logic and artistry, ever-eager to blend my diverse experiences into design solutions that resonate.<br><br>
+</p>
+                            
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About me End -->
+        <!-- Books -->
+<section class="books" id="books">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="books-bx wow zoomIn" data-wow-duration="1.5s">
+                            <h2> Read books</h2>
+                            <div class="owl-carousel owl-theme books-slider">
+                                <div class="item">
+                                    <img src="book-one.png" alt="Image">
+                                    
+                                </div>
+                                <div class="item">
+                                    <img src="book-two.png" alt="Image">
+                                    
+                                </div>
+                                <div class="item">
+                                    <img src="book-3.png" alt="Image">
+                                   
+                                </div>
+                                <div class="item">
+                                    <img src="book-4.png" alt="Image">
+                                    
+                                </div>
+                                <div class="item">
+                                    <img src="book-5.png" alt="Image">
+                                   
+                                </div>
+                                <div class="item">
+                                    <img src="book-6.png" alt="Image">
+                                    
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="book-7.png" alt="Image">
+                                   
+                                </div>
+                                <div class="item">
+                                    <img src="book-8.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-9.png" alt="Image">
+                                </div>
+                                <div class="item">
+                                    <img src="book-10.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-11.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-12.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-13.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-14.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-15.png" alt="Image">
+                                  
+                                </div>
+                                <div class="item">
+                                    <img src="book-16.png" alt="Image">
+                                  
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <!-- Books end -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class= >
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-xl-5">
+                                   
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-7">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6">
+                        <img src="logo.svg" alt="Logo">
+                    </div>
+                    <div class="col-12 col-sm-6 text-center text-sm-end">
+                        <div class="social-icon">
+                            <a href="https://www.behance.net/179e2bdc"><img src="nav-icon1.svg" alt="Icon"></a>
+                            <a href="https://www.linkedin.com/in/nataliia-blashchuk-5b3875188/"><img src="nav-icon2.svg" alt="Icon"></a>
+                            
+                        </div>
+                        <p>Copyright 2023. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    </main>
+
+    <!-- JS Files -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
