@@ -64,7 +64,7 @@ nav.navbar {
     transition: 0.3s ease-in-out;
 }
 nav.navbar.scrolled {
-    padding: 0px 0;
+    padding: 10px 0;
     background-color: #1f1e1e;
 }
 nav.navbar a.navbar-brand {
@@ -88,7 +88,7 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    margin-top: 32px;
+    
 }
 .social-icon a {
     width: 42px;
@@ -436,12 +436,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact img {
     width: 100%;
-    margin-left: 32px;
+
     
 }
 .contact h2 {
 	font-size: 32px;
-	font-weight: 700;
+	font-weight:700;
     margin-bottom: 30px;
 }
 .contact p{

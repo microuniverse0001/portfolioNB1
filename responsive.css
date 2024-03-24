@@ -70,7 +70,7 @@
         margin-top: 16px;
     }
     .contact img {
-        width: 96%;
+        width: 100%;
     }
     .newsletter-bx {
         border-radius: 52px;
@@ -363,9 +363,10 @@ nav.navbar.scrolled {
         width: 100%;
     }
     .contact img {
-        width: 42%;
+        width: 100%;
         align-items: center;
-        margin-bottom: 30px;
+        padding-bottom: 24px;
+
         
     }
     .newsletter-bx {
