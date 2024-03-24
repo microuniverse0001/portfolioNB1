@@ -331,6 +331,7 @@ nav.navbar.scrolled {
         margin: 0;
     }
 
+
 @media (max-width:767px) {
     div#navbarNav {
         position: absolute;
@@ -348,7 +349,7 @@ nav.navbar.scrolled {
             width: 20%;
              
 }
-    
+
     .banner {
         background-position: left;
         padding: 120px 0 20px 0;
@@ -362,7 +363,8 @@ nav.navbar.scrolled {
         width: 100%;
     }
     .contact img {
-        width: 80%;
+        width: 42%;
+        align-items: center;
         margin-bottom: 30px;
         
     }
@@ -376,9 +378,7 @@ nav.navbar.scrolled {
         margin-top: 25px;
         margin-bottom: 35px;
     }
-    .footer img {
-        width: 35%;
-    }
+
     .newsletter-bx h3 {
         font-size: 20px;
         margin-bottom: 24px;
@@ -386,8 +386,9 @@ nav.navbar.scrolled {
     }
     .footer img {
         width: 40%;
-        margin: 0 auto 30px auto;
-        display: block;
+        margin: auto auto 24px auto;
+        display:block;
+        justify-content: center;
     }
     .footer .social-icon a img {
         margin: 0;
@@ -489,4 +490,5 @@ nav.navbar.scrolled {
             justify-content: space-between; 
             width: 100%;
              
+}
 }
