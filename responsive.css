@@ -114,7 +114,7 @@
         padding: 16px 0;
     }
       nav.navbar a.navbar-brand {
-        width: 10%;
+        width: 8%;
     }
     .banner {
         padding: 176px 0 66px 0;
@@ -320,7 +320,7 @@ nav.navbar.scrolled {
         font-size: 20px;
     }
      nav.navbar a.navbar-brand {
-        width: 8%;
+        width: 10%;
     }
     .footer {
         padding: 0 0 24px 0;
@@ -438,7 +438,7 @@ nav.navbar.scrolled {
         width:100%;
     }
      nav.navbar a.navbar-brand {
-        width: 20%;
+        width: 10%;
     }
     .tools-bx {
         margin-top: 0;
