@@ -65,7 +65,7 @@
         font-size: 14px;
     }
     .contact form button {
-        padding: 12px 40px;
+        padding: 16px 40px;
         font-size: 15px;
         margin-top: 16px;
     }
@@ -95,10 +95,10 @@
         width: 22%;
     }
     .tools-slider .item h5 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .tools-slider .owl-nav button.owl-next, .skill-slider .owl-nav button.owl-prev {
-        width: 18px;
+        width: 16px;
     }
     .tools-slider .owl-nav button::before {
         width: 18px;
@@ -111,7 +111,7 @@
 
 @media (max-width:1368px) {
     nav.navbar {
-        padding: 10px 0;
+        padding: 16px 0;
     }
       nav.navbar a.navbar-brand {
         width: 8%;
@@ -123,7 +123,7 @@
         font-size: 44px;
     }
     .banner p, .skill p, .project p {
-        font-size: 13px;
+        font-size: 14px;
     }
     .tools h2, .project h2, .contact h2 {
         font-size: 32px;
@@ -141,13 +141,13 @@
         width: 88%;
     }
     .books p {
-        margin: 14px 0 50px 0;
+        margin: 16px 0 40px 0;
     }
     .proj-txtx h4 {
-        font-size: 22px;
+        font-size: 24px;
     }
     .proj-txtx span {
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact form input, .contact form textarea {
         border-radius: 14px;
@@ -158,7 +158,7 @@
         font-size: 13px;
     }
     .newsletter-bx h3 {
-        font-size: 22px;
+        font-size: 24px;
     }
     .new-emil-bx input {
         font-size: 14px;
@@ -221,8 +221,8 @@
     }
 }
 nav.navbar.scrolled {
-    padding: 16px 0;
-    height: 25%;
+    padding: 8px 0;
+    height: 15%;
     background-color: #232323;
 }
  .footer .social-icon a img {

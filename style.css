@@ -56,7 +56,7 @@ input:focus, textarea:focus, select:focus {
 /************ Navbar Css ************/
 
 nav.navbar {
-    padding: 18px 0;
+    padding: 16px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -64,7 +64,7 @@ nav.navbar {
     transition: 0.3s ease-in-out;
 }
 nav.navbar.scrolled {
-    padding: 10px 0;
+    padding: 16px 0;
     background-color: #1f1e1e;
 }
 nav.navbar a.navbar-brand {
@@ -74,9 +74,10 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link {
     font-weight: 400;
     color: #ececec;
     letter-spacing: 0.8px;
-    padding: 0 25px;
+    padding: 0 24px;
     font-size: 18px;
     opacity: 0.75;
+
 }
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover,
 nav.navbar ul.navbar-nav li.nav-item a.nav-link.active {
@@ -88,7 +89,7 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    
+
 }
 .social-icon a {
     width: 42px;
@@ -599,7 +600,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-bottom: 42px;
 }
 .books-bx {
-    background:linear-gradient(#58FF71 -5.91%, #191919 111.58%);
+    background:linear-gradient(#10511a -5.91%, #191919 111.58%);
     border-radius: 64px;
     text-align: center;
     padding-top: 60px;
