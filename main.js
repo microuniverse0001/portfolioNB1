@@ -38,7 +38,7 @@ $('.nav-link, .vvd ').on('click', function () {
 // Skill Slider Js
 $('.skill-slider').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 16,
   nav: true,
   navText: ["<img src='arrow1.svg'>", "<img src='arrow2.svg'>"],
   dots: false,
@@ -58,7 +58,7 @@ $('.skill-slider').owlCarousel({
 // tools Slider Js
 $('.tools-slider').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 16,
   nav: true,
   navText: ["<img src='arrow1.svg'>", "<img src='arrow2.svg'>"],
   dots: false,
@@ -78,7 +78,7 @@ $('.tools-slider').owlCarousel({
 // Books Slider Js
 $('.books-slider').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 16,
   nav: true,
   navText: ["<img src='arrow1.svg'>", "<img src='arrow2.svg'>"],
   dots: false,
