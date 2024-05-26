@@ -293,7 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-bx {
     background: #151515;
-    border-radius: 64px;
+    border-radius: 32px;
     text-align: center;
     padding: 64px;
 }
@@ -355,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project h2 {
     padding-bottom:32px;
     font-family: Orbitron;
-	font-size: 45px;
+	font-size: 48px;
 	font-weight: 700;
     text-align: center;
     padding-bottom:42px;
@@ -365,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx {
     position: relative;
-    border-radius: 30px;
+    border-radius: 32px;
     overflow: hidden;
     margin-bottom: 24px;
 }
@@ -432,7 +432,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ About me ************/
 .contact {
-    background: linear-gradient(90.21deg, #111111 -5.91%, #1d162f 111.58%);
+    background: #232323;;
     margin-top: 60px;
     padding-top: 42px;
     padding-bottom: 42px;
@@ -515,29 +515,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Tools Css ************/
 .tools {
     margin-top: 64px;
-	padding: 0 0 42 0;
     position: relative;
 }
 .tools-bx {
-    background:linear-gradient(#444445 -5.91%, #111111 111.58%);
-    border-radius: 64px;
+    background:#151515;
+    border-radius: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom:60px ;
-   
    
 }
 .tools h2 {
-	font-size: 45px;
-     font-family: Orbitron;
+	font-size: 48px;
+    font-family: Orbitron;
 	font-weight: 700;
 }
 .tools p {
-    color: #ececec;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    padding-bottom: 56px;
+   
 }
 .tools-slider {
     width: 80%;
@@ -546,7 +544,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .tools-slider .item img {
     width: 50%;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 16px auto;
 }
 
 .tools-slider .owl-nav button.owl-prev {
@@ -554,21 +552,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-	width: 22px;
+	width: 24px;
 }
 .tools-slider .owl-nav button.owl-next {
 	position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-	width: 22px;
+	width: 24px;
 }
 .tools-slider .owl-nav button::before {
     content: "";
     position: absolute;
-    width: 25px;
-    height: 25px;
-    background:#ececec;
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
     filter: blur(11px);
     border-radius: 50%;
     top: 50%;
@@ -598,31 +596,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Books ************/
 .books {
-    margin-top: 42px;
-	padding: 42 0 42 0;
     position: relative;
-    margin-bottom: 42px;
+
 }
 .books-bx {
-    background:linear-gradient(#10511a -5.91%, #191919 111.58%);
-    border-radius: 64px;
+    margin-top: 56px;
+    background:#232323 ;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom:60px ;
-   
-   
+    border-radius: 0px;
+    text-align: center;
 }
+
 .books h2 {
-     padding-bottom: 42px;
-      font-family: Orbitron;
-	font-size: 45px;
+    padding-bottom: 32px;
+    font-family: Orbitron;
+	font-size: 48px;
 	font-weight: 700;
 }
 
 .books-slider {
     width: 80%;
-    margin: 0 auto;
+    margin: 42px auto;
 	position: relative;
+    padding-top: 56px;
 }
 .books-slider .item img {
     width: 50%;
@@ -634,20 +630,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-	width: 22px;
+	width: 24px;
 }
 .books-slider .owl-nav button.owl-next {
 	position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-	width: 22px;
+	width: 24px;
 }
 .books-slider .owl-nav button::before {
     content: "";
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     background: #FFFFFF;
     filter: blur(11px);
     border-radius: 50%;
@@ -672,7 +668,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-    padding: 0 0 50px 0;
+    padding: 0 0 24px 0;
     background-image: url('/footer-bg.png');
     background-position: center center;
     background-size: cover;

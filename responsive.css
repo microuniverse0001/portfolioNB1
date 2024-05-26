@@ -92,18 +92,9 @@
         font-size: 14px;
     }
     .footer img {
-        width: 25%;
+        width: 15%;
     }
-    .tools-slider .item h5 {
-        font-size: 16px;
-    }
-    .tools-slider .owl-nav button.owl-next, .skill-slider .owl-nav button.owl-prev {
-        width: 16px;
-    }
-    .tools-slider .owl-nav button::before {
-        width: 16px;
-        height: 16px;
-    }
+   
 }
  .footer .social-icon a img {
         margin: 0;
@@ -271,6 +262,10 @@ nav.navbar.scrolled {
     .banner p {
         width: 100%;
     }
+     .tools p {
+    padding-bottom: 24px;
+   
+    }
 }
  .footer .social-icon a img {
         margin: 0;
@@ -316,14 +311,15 @@ nav.navbar.scrolled {
     .banner .taglin {
         font-size: 14px;
     }
-    .newsletter-bx h3 {
-        font-size: 20px;
-    }
      nav.navbar a.navbar-brand {
         width: 10%;
     }
     .footer {
         padding: 0 0 24px 0;
+    }
+     .tools p {
+    padding-bottom: 16px;
+   
     }
 }
 
@@ -386,7 +382,7 @@ nav.navbar.scrolled {
         text-align: center;
     }
     .footer img {
-        width: 40%;
+        width: 24%;
         margin: auto auto 24px auto;
         display:block;
         justify-content: center;
@@ -442,9 +438,11 @@ nav.navbar.scrolled {
     }
     .tools-bx {
         margin-top: 0;
+        
     }
-     .books-bx {
-        margin-top: 0;
+    .tools p {
+    padding-bottom: 16px;
+   
     }
     
     .project .nav.nav-pills {
@@ -456,7 +454,7 @@ nav.navbar.scrolled {
         height:auto;
     }
    .footer{
-    padding-top: 30px;
+    padding-top: 24px;
    }
     .project .nav.nav-pills li.nav-item {
         width: 100%;
