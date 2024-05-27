@@ -292,6 +292,7 @@ nav.navbar.scrolled {
     }
     .tools-slider {
         width: 100%;
+        margin-top: 24px;
     }
     .tools-slider .item img {
         width: 55%;
@@ -303,6 +304,10 @@ nav.navbar.scrolled {
     .books-slider .item img {
         width: 55%;
         margin: 0 auto 16px auto;
+    }
+    .books-bx h2{
+        font-size: 32px;
+        padding-top: 24px;
     }
      
     .banner h1 {
@@ -444,7 +449,9 @@ nav.navbar.scrolled {
     padding-bottom: 16px;
    
     }
-    
+    .contact {
+        padding-top: 24px;
+    }
     .project .nav.nav-pills {
         width: 100%;
         border-radius: 0;
