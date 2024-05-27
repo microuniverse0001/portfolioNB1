@@ -514,7 +514,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Tools Css ************/
 .tools {
-    margin-top: 64px;
+    padding-top: 32px;
     position: relative;
 }
 .tools-bx {
@@ -529,6 +529,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 48px;
     font-family: Orbitron;
 	font-weight: 700;
+    
 }
 .tools p {
     font-size: 18px;
