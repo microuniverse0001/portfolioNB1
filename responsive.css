@@ -336,7 +336,7 @@ nav.navbar.scrolled {
 @media (max-width:767px) {
     div#navbarNav {
         position: absolute;
-        top: 32px;
+        top: 0px;
         background: #1f1f1f;
         left: 0;
         right: 0;
