@@ -164,7 +164,7 @@ nav.navbar .navbar-toggler:focus {
     box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
-	width: 24px;
+	width: 32px;
 	height: 18px;
 	background-image: none;
 	position: relative;
@@ -177,7 +177,7 @@ nav.navbar .navbar-toggler-icon:focus {
 }
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
-	width: 24px;
+	width: 32px;
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
@@ -189,16 +189,17 @@ nav.navbar .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
+    
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
 	background-color: #fff;
-	height: 2px;
+	height: 4px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
 	background-color: #fff;
-	height: 2px;
+	height: 4px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
