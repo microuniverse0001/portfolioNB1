@@ -146,7 +146,7 @@ span.navbar-text {
     background-color: #ececec;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: -2;
 	transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
@@ -170,7 +170,7 @@ nav.navbar .navbar-toggler-icon {
 	position: relative;
 	border-bottom: 2px solid #fff;
 	transition: all 300ms linear;
-    top: -2px;
+    top: 0px;
 }
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
@@ -181,10 +181,10 @@ nav.navbar .navbar-toggler-icon:before {
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
-	top: 0;
+	top: 8;
 	left: 0;
 	content: '';
-	z-index: 2;
+	z-index: 4;
 	transition: all 300ms linear;
 }
 nav.navbar .navbar-toggler-icon:after {
@@ -317,25 +317,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 0 auto;
 	position: relative;
 }
-.skill-slider .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-}
 
-.skill-slider .owl-nav button.owl-prev {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-	width: 22px;
-}
 
-.skill-slider .owl-nav {
-    margin: 0 !important;
-    position: absolute;
-    width: 100%;
-    top: 45%;
-}
 .sdf {
     top: 28%;
     position: absolute;
