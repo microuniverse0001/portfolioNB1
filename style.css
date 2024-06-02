@@ -170,7 +170,7 @@ nav.navbar .navbar-toggler-icon {
 	position: relative;
 	border-bottom: 2px solid #fff;
 	transition: all 300ms linear;
-    top: 0px;
+    top: 4px;
 }
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
@@ -181,7 +181,7 @@ nav.navbar .navbar-toggler-icon:before {
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
-	top: 2;
+	top: 8;
 	left: 0;
 	content: '';
 	z-index: 4;
