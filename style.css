@@ -16,6 +16,7 @@ body {
     color:#dcdcdc;
     font-family: Orbitron;
 	font-weight: 400;
+    font-size: 32px;
 	overflow-x: hidden;
     position: relative;
 	background-color: #232323;
@@ -68,16 +69,16 @@ nav.navbar.scrolled {
     padding: 16px 0;
     background-color: #1f1e1e;
 }
+
 nav.navbar a.navbar-brand {
     width: 8%;
+    margin-top:16px;
 }
 nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-    font-weight: 500;
-    color: #ececec;
-    letter-spacing: 0.8px;
-    padding: 0 24px;
-    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
     opacity: 0.75;
+    
 
 }
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover,
@@ -87,6 +88,7 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link.active {
 span.navbar-text {
     display: flex;
     align-items: center;
+    padding: 0px;
 }
 .social-icon {
     display: inline-block;
@@ -100,7 +102,7 @@ span.navbar-text {
     border-radius: 50%;
     align-items: left;
     justify-content: center;
-    line-height: 1;
+    line-height: 2;
 
 }
 .social-icon a::before {
@@ -126,11 +128,11 @@ span.navbar-text {
 }
 .navbar-text button {
     font-weight: 700;
-    color: #ececec;
-    border: 2px solid #ececec;
-    padding: 18px 32px;
-    margin-left: 18px;
-    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding:16px;
+    margin-left: 16px;
+    font-size: 32px;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
@@ -143,7 +145,7 @@ span.navbar-text {
     width: 0%;
     height: 100%;
     position: absolute;
-    background-color: #ececec;
+    background-color: #ffff;
     left: 0;
     top: 0;
     z-index: -2;
@@ -170,7 +172,7 @@ nav.navbar .navbar-toggler-icon {
 	position: relative;
 	border-bottom: 2px solid #fff;
 	transition: all 300ms linear;
-    top: 4px;
+    top: 8px;
 }
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
@@ -178,10 +180,10 @@ nav.navbar .navbar-toggler-icon:focus {
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
 	width: 40px;
-	position: absolute;
+	position:absolute;
 	height: 2px;
 	background-color: #fff;
-	top: 8;
+	top: 0;
 	left: 0;
 	content: '';
 	z-index: 4;
@@ -190,19 +192,24 @@ nav.navbar .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
     
+    
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
 	background-color:#58FF71 ;
-	height: 4px;
+	height: 12px;
+
+   
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
 	background-color: #58FF71;
-	height: 4px;
+	height: 12px;
+    
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
+   
 }
 .vvd{
     color: #d0d0d0;
@@ -228,12 +235,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner .taglin {
     font-weight: 700;
+    background-color: #232323;
     letter-spacing: 0.8px;
-    padding: 8px 10px;
-    background: linear-gradient(90.21deg, #6f35f7(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 20px;
-    margin-bottom: 16px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-bottom: 24px;
     display: inline-block;
 }
 .banner h1 {
@@ -242,20 +248,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     display: inline-block;
 }
 .banner p {
-    color: #8d8d8d;
-    font-size: 18px;
-    letter-spacing: 0.8px;
+    color:#b9b9b9;
+    background-color: #232323;
+    font-size: 16px;
     line-height: 1.5em;
-    width: 96%;
+    border-radius: 8px;
+    padding: 8px;
+    width: 90%;
 }
 .banner button {
     color: #fff;
+     padding: 8px 16px;
+    border: 1px solid #f2f2f2;
+    background-color: #232323;
+     border-radius: 8px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 60px;
     letter-spacing: 0.8px;
     display: flex;
@@ -263,6 +275,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button i {
 	font-size: 25px;
+    color: #58FF71;
 	margin-left: 10px;
 	transition: 0.3s ease-in-out;
 	line-height: 1;
@@ -307,10 +320,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill li {
   
     font-family:Helvetica;
-    color:#dcdcdc;
+    color:#b9b9b9;
     font-weight:100;
-    font-size: 18px;
-    line-height: 150%;
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 140%;
   
 }
 .skill-slider {
@@ -433,8 +447,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact p{
     font-family:Helvetica;
-    color:#dcdcdc;
-    line-height: 130%;
+    color:#b9b9b9;
+    line-height: 140%;
     font-weight:100;
     font-size: 18px;
 }
