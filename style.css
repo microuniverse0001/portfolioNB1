@@ -58,7 +58,6 @@ input:focus, textarea:focus, select:focus {
 /************ Navbar Css ************/
 
 nav.navbar {
-    padding:16px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -66,13 +65,13 @@ nav.navbar {
     transition: 0.3s ease-in-out;
 }
 nav.navbar.scrolled {
-    padding: 16px 0;
+    padding: 8px 0;
     background-color: #1f1e1e;
 }
 
 nav.navbar a.navbar-brand {
     width: 8%;
-    margin-top:16px;
+   
 }
 nav.navbar ul.navbar-nav li.nav-item a.nav-link {
     font-weight: 400;

@@ -21,7 +21,6 @@
     }
       nav.navbar a.navbar-brand {
         width: 6%;
-        margin-bottom: 16px;
     }
     .banner {
         padding: 200px 0 60px 0;
@@ -352,7 +351,6 @@ nav.navbar .navbar-toggler-icon {
     top: 0px;
 }
 
-
 .contact{
     margin-top: 32px;
     margin-bottom:8px;
@@ -399,8 +397,8 @@ nav.navbar .navbar-toggler-icon {
         margin: 0;
     }
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        padding: 24px 16px 16px 16px;
-        font-size: 16px;
+        padding: 24px 16px 16px 24px;
+        font-size: 20px;
         border-bottom: 1px solid rgb(255 255 255 / 20%);
     }
     span.navbar-text {
@@ -433,14 +431,13 @@ nav.navbar .navbar-toggler-icon {
         position: relative;
     }
     nav.navbar.scrolled {
-        padding: 24px 0;
+        padding: 16px 0;
     }
     nav.navbar.scrolled div#navbarNav {
-        top: 24px;
+        top: 0px;
     }
     .navbar img{
         width:100%;
-        margin-bottom: 16px;
     }
      nav.navbar a.navbar-brand {
         width: 12%;
