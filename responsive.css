@@ -32,7 +32,7 @@
         font-size: 15px;
     }
     .banner .taglin {
-        font-size: 15px;
+        font-size: 12px;
     }
     .banner button {
         font-size: 15px;
@@ -369,12 +369,18 @@ nav.navbar .navbar-toggler-icon {
        
        
     }
+    .banner .taglin{
+        font-size: 12px;
+        margin-top: 8px;
+    }
     .banner h1 {
-        font-size: 24px;
+        font-size: 20px;
+        margin-bottom: 16px;
     }
     .banner img {
         width: 100%;
     }
+
     .contact img {
         width: 100%;
         align-items: center;
