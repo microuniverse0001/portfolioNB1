@@ -1,8 +1,8 @@
 @media (max-width:1700px) {
     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
-        padding:8px;
         margin-right: 32px;
-        font-size: 18px;
+        padding-bottom: 16px;
+        font-size: 16px;
     }
     
     .social-icon a {
@@ -17,16 +17,14 @@
     }
     .navbar-text button {
         padding: 8px 16px;
-        font-size: 16px;
+        
     }
-      nav.navbar a.navbar-brand {
-        width: 6%;
-    }
+   
     .banner {
         padding: 200px 0 60px 0;
     }
     .banner h1 {
-        font-size: 52px;
+        font-size: 48px;
     }
     .banner p, .skill p, .project p {
         font-size: 15px;
@@ -92,6 +90,11 @@
 @media (max-width:1368px) {
     nav.navbar {
         padding: 16px 0;
+    }
+     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        margin-right: 32px;
+        padding-bottom: 16px;
+        font-size: 16px;
     }
       nav.navbar a.navbar-brand {
         width: 6%;
@@ -170,7 +173,11 @@
     .banner {
         padding: 152px 0 52px 0;
     }
-    
+     nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+        margin-right: 32px;
+        padding-bottom: 16px;
+        font-size: 16px;
+    }
     .banner h1 {
         font-size: 36px;
     }
@@ -193,7 +200,7 @@
         display: block;
     }
      nav.navbar a.navbar-brand {
-        width: 8%;
+        width: 6%;
         margin-bottom: 16px;
     }
 }

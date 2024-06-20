@@ -70,7 +70,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 8%;
+    width: 6%;
    
 }
 nav.navbar ul.navbar-nav li.nav-item a.nav-link {
@@ -131,7 +131,7 @@ span.navbar-text {
     border: 2px solid #fff;
     padding:16px;
     margin-left: 16px;
-    font-size: 32px;
+    font-size: 16px;
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
@@ -281,18 +281,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-    animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+    border-radius: 16px;
 }
 
 
