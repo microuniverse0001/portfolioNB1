@@ -230,12 +230,12 @@ nav.navbar.scrolled {
         width: 85%;
     }
     .contact {
-        padding-bottom:24px;
+        padding-bottom:16px;
         padding-top: 24px;
     }
      .contact img {
         width: 60%;
-        padding-bottom: 24px;
+        padding-bottom: 16px;
     }
     .newsletter-bx {
         margin-top: -100px;
@@ -270,17 +270,25 @@ nav.navbar.scrolled {
     .project p {
         width: 100%;
     }
-   
+
+    .contact h2 {
+	font-size: 24px;
+}
+    .project h5 {
+    margin-bottom:16px;
+    font-size: 20px;
+    
+}
      .books-slider {
         width: 100%;
     }
     .contact {
+        margin-top: 24px;
          width: 100%;
          
     }
- .contact img {
+  .contact img {
         width: 60%;
-        padding-bottom: 24px;
     }
     
     .books-slider .item img {
@@ -295,6 +303,7 @@ nav.navbar.scrolled {
     .project h1 {
 
     font-size: 32px;
+    margin-bottom: 32px;
        
 }
     .banner h1 {
@@ -302,7 +311,6 @@ nav.navbar.scrolled {
     }
     
     .contact h2 {
-
     font-size: 32px;
        
 }
@@ -325,9 +333,7 @@ nav.navbar.scrolled {
 	font-size: 24px;
     margin-bottom: 16px;
 }
-.contact{
-    margin-top:24px;
-}
+
  .footer .social-icon a img {
         margin: 0;
     }
@@ -357,6 +363,7 @@ nav.navbar.scrolled {
         width: 100%;
     }
     .contact img {
+        margin-top: 32px;
         width: 100%;
 
     }
@@ -442,14 +449,7 @@ nav.navbar.scrolled {
     .books-bx {
     position: relative;
     }
-    .contact h2 {
-	font-size: 24px;
-    margin-bottom: 16px;
-}
-.contact{
-    margin-top:24px;
-}
-    
+ 
     button#pills-contact-tab {
         /* border: 0px solid rgba(255, 255, 255, 0.5); */
         border-radius: 0;
