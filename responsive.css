@@ -363,7 +363,6 @@ nav.navbar.scrolled {
         width: 100%;
     }
     .contact img {
-        margin-top: 32px;
         width: 100%;
 
     }
@@ -382,9 +381,7 @@ nav.navbar.scrolled {
         width: 100%;
     }
      
-    .footer img {
-        width: 35%;
-    }
+ 
     .newsletter-bx h3 {
         font-size: 20px;
         margin-bottom: 22px;
