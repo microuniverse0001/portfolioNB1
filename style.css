@@ -324,8 +324,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
     content: "";
-    background: rgb(218, 218, 218);
-    opacity: 0.3;
+    background: rgb(56, 56, 56);
+    opacity: 0.6;
     position: absolute;
     width: 100%;
     height: 0;
