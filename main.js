@@ -37,25 +37,6 @@ $('.nav-link, .vvd ').on('click', function () {
 
 
 
-// Books Slider Js
-$('.books-slider').owlCarousel({
-  loop: true,
-  margin: 16,
-  nav: true,
-  navText: ["<img src='arrow1.svg'>", "<img src='arrow2.svg'>"],
-  dots: false,
-  responsive: {
-    0: {
-      items: 1
-    },
-    575: {
-      items: 2
-    },
-    768: {
-      items: 3
-    }
-  }
-});
 
 // Text Animate JS
 var TxtRotate = function (el, toRotate, period) {
