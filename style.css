@@ -382,7 +382,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
      justify-content: space-between;
      
 }
-
+.contact h1 {
+     margin-bottom:40px;
+    color:#58FF71;
+    font-size: 48px;
+    font-family: Orbitron;
+	font-weight: 700;
+    text-align: center;
+}
 .two-column-text {
     padding-bottom: 24px;
     display: grid;
