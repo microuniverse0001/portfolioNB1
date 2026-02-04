@@ -115,7 +115,7 @@ function goBackToPreviousPage5() {
     window.location.href = previousPage;
   }
   else {
-    window.location.href = "resume.html"
+    window.location.href = "MyCV.pdf"
   }
 }
 function getCookie(name) {
