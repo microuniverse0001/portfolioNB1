@@ -396,6 +396,7 @@ font-size: 32px;
 }
     
     .contact img {
+        padding-top: 16px;
         width: 80%;
 
     }
