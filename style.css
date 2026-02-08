@@ -96,7 +96,7 @@ span.navbar-text {
 }
 .social-icon {
     display: inline-block;
-    margin-left: 14px;
+   
 }
 .social-icon a {
     width: 24px;
@@ -424,7 +424,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project h1 {
-    padding-bottom: 40px;
+    padding-bottom: 32px;
     color:#58FF71;
     font-size: 48px;
     font-family: Orbitron;
