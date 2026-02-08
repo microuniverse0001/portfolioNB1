@@ -361,14 +361,14 @@ nav.navbar.scrolled {
     }
 
     .banner h2 {
-        font-size: 16px;
+        font-size: 24px;
         max-width: 400px;
         margin-left: 16px;
              
     }
     
 .banner p {
-        font-size: 14px;
+        font-size:16px;
         max-width: 328px;
         margin-left: 16px;
         padding-bottom: 32px;

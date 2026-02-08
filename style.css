@@ -231,13 +231,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color:#dcdcdc;
     font-weight: 100;
     line-height: 1.3em;
-    margin-top: 16px;
     display: inline-block;
 }
 
 
 .banner p {
-    max-width: 500px;
+    max-width: 440px;
     padding-top: 16px;
     color:#dcdcdc;
     font-weight: 100;
