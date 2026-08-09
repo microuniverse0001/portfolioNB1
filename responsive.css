@@ -54,10 +54,7 @@
     .proj-txtx span {
         font-size: 14px;
     }
-    .contact h2 {
-       font-size: 36px;
-       padding-bottom: 24px;
-    }
+   
     .contact form input, .contact form textarea {
         border-radius: 14px;
         padding: 16px 24px;
@@ -217,10 +214,7 @@ nav.navbar.scrolled {
     .project .nav.nav-pills {
         width: 85%;
     }
-    .contact {
-        padding-bottom:16px;
-        padding-top: 24px;
-    }
+   
      .contact img {
         width: 100%;
         padding-bottom: 16px;
@@ -272,9 +266,7 @@ nav.navbar.scrolled {
   grid-template-columns: repeat( 1fr);
   gap: 24px;
 }
-    .contact h2 {
-	font-size: 24px;
-}
+  
     .project h5 {
     margin-bottom:16px;
     font-size: 20px;
@@ -302,10 +294,7 @@ nav.navbar.scrolled {
         font-size: 32px;
     }
     
-    .contact h2 {
-    font-size: 32px;
-       
-}
+
     .banner .taglin {
         font-size: 14px;
     }
@@ -411,7 +400,7 @@ font-size: 24px;
     }
     .banner button {
         margin-top: 24px;
-        margin-bottom: 24px;
+        margin-bottom: 48px;
     }
     
     .project h1{

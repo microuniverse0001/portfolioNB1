@@ -523,8 +523,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
      justify-content: space-between;
      
 }
-.contact h1 {
-     margin-bottom:40px;
+.contact h1 {  
     color:#58FF71;
     font-size: 48px;
     font-family: Orbitron;
