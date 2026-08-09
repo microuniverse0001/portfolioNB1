@@ -95,15 +95,19 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+  margin-right: 16px;
+  gap:16px;
+
+    
    
 }
 .social-icon a {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     display: inline-flex;
     border-radius: 8%;
-    padding-top: 24px;
     align-items: center;
     justify-content: center;
     line-height: 1;
@@ -111,8 +115,8 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 24px;
-    height: 24x;
+    width: 32px;
+    height: 32px;
     position: absolute;
     background-color: #58FF71;
     border-radius: 16%;
@@ -218,6 +222,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .vvd,.taglin{
     border-radius: 8px;
    padding-left: 24px;
+   padding-right: 24px;
 }
 
 
