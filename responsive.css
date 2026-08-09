@@ -382,18 +382,17 @@ nav.navbar.scrolled {
         margin-left: 16px;
     }
    .proj-recent {
- margin-top:64px;
+ margin-top:32px;
 
 }
   .proj-recent h1 {
-font-size: 32px;
+font-size: 24px;
 
 }
 
-.values-subtitle{
-    margin-top: 24px;
+
   
-}
+
 .values.block{
     margin-left: 16px;
 }
