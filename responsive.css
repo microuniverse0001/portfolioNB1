@@ -375,7 +375,7 @@ nav.navbar.scrolled {
 
 }
   .proj-recent h1 {
-font-size: 24px;
+font-size: 32px;
 
 }
 
@@ -406,6 +406,9 @@ font-size: 24px;
     .project h1{
         margin-top: 32px;
     } 
+    .contact h1{
+        font-size: 32px;
+    }
     
 .values-prop h1 {
     margin-top: 32px;
