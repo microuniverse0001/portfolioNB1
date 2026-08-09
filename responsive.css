@@ -35,7 +35,8 @@
     }
     .banner button {
         font-size: 16px;
-        margin-left: 150px;
+        margin-top: 32px;
+
     }
     .banner button i {
         font-size: 24px;
@@ -343,7 +344,8 @@ nav.navbar.scrolled {
         position: relative;
         top:0;
         background:#121212;
-         padding: 16px,16px;
+         padding-top:24px;
+         padding-bottom: 24px;
         transition: 0.3s ease-in-out;
     }
     nav.navbar a.navbar-brand {
@@ -351,7 +353,7 @@ nav.navbar.scrolled {
     }
     .banner {
         background-position: center;
-        padding: 112px 0 32px 0;
+        padding: 96px 0 32px 0;
     }
 
     .banner img{
@@ -372,7 +374,7 @@ nav.navbar.scrolled {
         font-size:16px;
         max-width: 328px;
         margin-left: 16px;
-        padding-bottom: 32px;
+       
              
     }
 
@@ -409,8 +411,8 @@ font-size: 32px;
         margin-top: -85px;
     }
     .banner button {
-        margin-top: 25px;
-        margin-bottom: 35px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
     
     .project h1{
